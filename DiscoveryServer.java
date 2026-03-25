@@ -4,7 +4,7 @@ import java.io.*;
 public class DiscoveryServer {
     
     public static void main(String[] args) throws Exception {
-        int port = 8080;
+        int port = 80;
         
         System.out.println("Listening on port " + port + "...");
         ServerSocket serverSocket = new ServerSocket(port);
